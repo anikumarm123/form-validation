@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="/validationstyle.css">
+</head>
+
+<body>
+    <section class="flx">
+        <div class="left-side">
+            <h2>lottery Display</h2>
+            <p class="bold">A few click away from creating your lottery Display</p>
+            <table>
+            <tr>
+                <td>firstname</td>
+                <td>lastname</td>
+                <td>phone</td>
+                <td>email</td>
+                <td>password</td>
+                <td>con-pass</td>
+            </tr>
+            <tr>
+                <td class="first-n"></td>
+                <td class="last-n"></td>
+                <td class="phone-n"></td>
+                <td class="e-mail"></td>
+                <td class="pas-word"></td>
+                <td class="con-pas"></td>
+            </tr>   
+           </table>
+        </div>
+        <div class="right-side">
+            <h4>Register</h4>
+            <p class="l-phara">manage all your lottery efficiently</p>
+            <p class="l-phara">enter your details below</p>
+            <form action="" id="">
+                <section class="ip-flx">
+                <div class="ip-1">
+                    <label for="first-name">first name <span>*</span></label><br>
+                    <input id="first-name" type="text"><br>
+                    <p><samp class="error-msg" id="first-msg"></samp></p>
+
+                    <label for="phone-num">phone No <span>*</span></label><br>
+                    <input id="phone-num" type="number"><br>
+                    <p><samp class="error-msg" id="msg-num"></samp></p>
+
+                    <label for="password">password <span>*</span></label><br>
+                    <input type="password" id="password"><br>
+                    <p><samp class="error-msg" id="msg-pass"></samp></p>
+                </div>
+                <div class="ip-2">
+                    <label for="last-name"> last name <span>*</span></label><br>
+                    <input id="last-name" type="text"><br>
+                    <p><samp class="error-msg" id="last-msg"></samp></p>
+
+                    <label for="email">Email <span>*</span></label><br>
+                    <input id="email" type="text"><br>
+                    <p><samp class="error-msg" id="msg-email"></samp></p>
+
+                    <label for="con-pas">confirm password <span>*</span></label><br>
+                    <input type="password" id="con-pas"><br>
+                    <p><samp class="error-msg" id="msg-con"></samp></p>
+                    
+                </div>
+            </section>
+            <input type="checkbox" id="check"><label>Yes,i Will to create an account</label><br>
+            <button class="creat-btn">create account</button>    
+            <p>Aleady have an account? <a href="">login</a> </p>
+            </form>  
+        </div>
+    </section>
+    <script src="/validationscript.js"></script>
+</body>
+
+</html>
